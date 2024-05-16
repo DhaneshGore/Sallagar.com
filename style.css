@@ -1,0 +1,66 @@
+body {
+  background-color: #4b9ba9;
+}
+
+
+.navbar {
+  background-color: rgba(17, 32, 32, 0.765);
+  padding: 10px 8px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar a {
+  color: rgb(242, 248, 248);
+  padding: 100px 10px;
+  text-decoration: none;
+}
+
+.banner {
+  text-align: center;
+  margin: 100px;
+  position: relative;
+  height: 100px; /* Adjust the height as needed */
+  width: 500px;
+}
+
+.banner {
+  background-color: #524e4e;
+  padding: 100px 100px;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.banner img {
+  width: auto;
+  height: auto;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.content-box {
+  background-color: #be2424;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+.about-us,
+.services,
+.Home {
+  display: none;
+}
